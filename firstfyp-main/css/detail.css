@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+fieldset{
+     padding: 20px; 
+} 
+legend{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maindetail{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.list{
+    width: 100%;
+    height: 400px;
+    background: #F58634;
+    flex-wrap: wrap;
+}
+.housepic img{
+    width: 100%;
+    height: 320px;
+}
+ .camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+.camera img{
+    width: 40px;
+}
+.camera h4{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 0.9px solid #FFFFFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.camera h5{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.floor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* gap: 40px ; */
+} 
+.floorr img{
+    width: 40%;
+}
+.floorr{
+    gap: 10px;
+}
+.salemain{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.saleing{
+    
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    
+}
+.salemain h1{
+    color: #3C3C3C;
+
+}
+.salemain h2{
+    color: #858585;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.saleing button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#03A0C2;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 22%;
+    height: 60px;
+    text-align: center;
+}
+.euro h1{
+    display: flex;
+    align-items: center;
+    font-family: 35px;
+}
+.euro img{
+ width: 12%;
+}
+.note{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.note img{
+    width: 20px;
+    color: #2B4FAC;
+   
+}
+.note h5{
+    color: #2B4FAC;
+    display: flex;
+    align-items: center;  
+    gap: 10px;
+}
+.note h4{
+    color: #F58634;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.subb{
+    width: 55%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F58634;
+    color:#fff;
+    padding: 10px;
+}
+.subb p{
+    border-right: 0.9px solid #FFFFFF;
+     padding: 10px;
+    gap: 10px;
+}
+.favourite{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+}
+.save button{
+    width: 70%;
+    height: 35px;
+    border: 0.9px solid #F58634;
+    background-color: #fff;
+    color: #F58634;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   padding: 10px;
+}
+.save img{
+    width: 15%;
+}
+.discard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.share button{
+    width: 40%;
+    height: 20px;
+    border: none;
+    background-color: #fff;
+    color: #408A06;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.share img{
+    width: 30%;
+}
+.discard button{
+    width: 40%;
+    border: none;
+    background-color: #fff;
+    color: #F58634;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.discard img{
+    width: 20%;
+}
+.addd{
+    width: 100%;
+    height: 120px;
+    background-color: #FFF9F5;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.addd h5{
+    color: #A7A7A7;
+    
+}
+.askk{
+  width: 23%;
+  height: 300px;
+  border-radius: 4px;
+  border: 0.9px solid #C7C7C7;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+margin-top: 30px;
+}
+.adver{
+    padding: 10px;
+}
+.askk h3{
+    font-family: Arial, Helvetica, sans-serif;
+  color:#F58634;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Regards{
+   padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 0.9px solid #C4C4C4;
+}
+.Regards h5{
+    margin-top: 20px;
+}
+.askk button{
+    width: 100%;
+    height: 40px;
+    background-color: #F58634;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.allinone{
+    padding: 10px;
+    width: 100%;
+    background-color:#F8F8F8;
+    margin-top: 20px;
+    
+}
+.allinone h5{
+    color: #91908D;
+    padding: 5px;
+
+}
+.allinone h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C3C3C;
+    padding: 5px;
+    font-size: 13px;
+
+}
+.calls{
+    margin-top: 10px;
+    padding: 5px;
+  
+}
+.calls p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+
+}
+.calls img{
+    width: 10%;
+}
+.calls p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.property{
+    width: 65%;
+   font-family: Arial, Helvetica, sans-serif;
+   flex-wrap: wrap;
+   margin-left: 50px;
+
+}
+.property button{
+    background: none;
+    border: none;
+    color: #F58634;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.features{
+    width: 65%;
+    margin-left: 50px;
+}
+.basic{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+   font-family: Arial, Helvetica, sans-serif;
+   gap: 60px;
+   padding: 20px;
+   
+}
+.detached img{
+    width: 20px;
+}
+.detached p{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.detached h4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.detached sub{
+    color: #F58634;
+}
+.condition img{
+width: 20px;
+
+}
+.condition p{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.condition h2{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.condition h3{
+    color: #F58634;
+    margin-top: 30px;
+}
+.mark{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.mark img{
+    width: 30px;
+}
+.mark h3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.related{
+    width: 65%;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.houses{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.houses h2{
+    margin-top: 15px;
+}
+.houses p{
+    margin-top: 10px;
+}
+.houses h3{
+    color: #F58634;
+    margin-top: 15px;
+    font-size: 30px;
+}
